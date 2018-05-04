@@ -25,11 +25,16 @@
   },
   "homepage": "https://github.com/dreitagebart/ramble#readme",
   "dependencies": {
+    "prop-types": "^15.6.1",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "react-redux": "^5.0.7",
     "react-router-dom": "^4.2.2",
-    "redux": "^4.0.0"
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.2.0",
+    "semantic-ui-css": "^2.3.1",
+    "semantic-ui-react": "^0.80.0",
+    "validator": "^10.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.3",
@@ -43,6 +48,7 @@
     "nodemon": "^1.17.3",
     "prettier": "^1.12.1",
     "react-scripts": "^1.1.4",
+    "redux-devtools-extension": "^2.13.2",
     "webpack": "^4.6.0"
   }
 }
